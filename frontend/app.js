@@ -2,7 +2,7 @@
  * Frontend simple para CRUD de productos de la tienda de perritos..
  */
 
-// Determinar la URL base de la API según el hostttt
+// Determinar la URL base de la API según el hostt
 // frontend/app.js
 
 
