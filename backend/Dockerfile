@@ -5,8 +5,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm ci --omit=dev
-
+RUN npm install --production
 
 # Stage 2: runtime / producción
 FROM node:18-alpine AS runtime
